@@ -122,7 +122,7 @@
             <!-- FOTO 1 -->
             <div class="flex flex-col gap-3">
                 <div onclick="bukaLink()" class="cursor-pointer border border-white/10 rounded-lg overflow-hidden bg-neutral-900">
-                    <img src="/home/spot/Downloads/uil2.png" alt="Baseball" class="object-fit-container">
+                    <img src="uil2.png" alt="Baseball" class="object-fit-container">
                 </div>
                 <a href="javascript:void(0)" onclick="bukaLink()" class="text-center text-[10px] sm:text-xs font-bold text-gray-300 hover:text-white uppercase transition-colors underline underline-offset-4">
                     2026 UIL 2A Div 2 Baseball Championship Burton vs Ropesville Ropes
@@ -131,7 +131,7 @@
             <!-- FOTO 2 -->
             <div class="flex flex-col gap-3">
                 <div onclick="bukaLink()" class="cursor-pointer border border-white/10 rounded-lg overflow-hidden bg-neutral-900">
-                    <img src="/home/spot/Downloads/uil3.png" alt="Softball" class="object-fit-container">
+                    <img src="uil3.png" alt="Softball" class="object-fit-container">
                 </div>
                 <a href="javascript:void(0)" onclick="bukaLink()" class="text-center text-[10px] sm:text-xs font-bold text-gray-300 hover:text-white uppercase transition-colors underline underline-offset-4">
                     2026 UIL 3A Div 1 Baseball Championship Boyd vs Corpus Christi London
@@ -140,7 +140,7 @@
             <!-- FOTO 3 -->
             <div class="flex flex-col gap-3">
                 <div onclick="bukaLink()" class="cursor-pointer border border-white/10 rounded-lg overflow-hidden bg-neutral-900">
-                    <img src="/home/spot/Downloads/uil4.png" alt="Tournament 3" class="object-fit-container">
+                    <img src="uil4.png" alt="Tournament 3" class="object-fit-container">
                 </div>
                 <a href="javascript:void(0)" onclick="bukaLink()" class="text-center text-[10px] sm:text-xs font-bold text-gray-300 hover:text-white uppercase transition-colors underline underline-offset-4">
                     2026 UIL 3A Div 2 Baseball Championship Franklin vs Paradise
@@ -164,7 +164,9 @@
         const registerBtn = document.getElementById('registerBtn');
         const playerBackground = document.getElementById('playerBackground');
 
-        playerBackground.style.backgroundImage = "url('/home/spot/Downloads/uil1.png
+        // Ganti URL ini dengan link gambar background Anda
+        playerBackground.style.backgroundImage = "url('uil1.png')";
+
         const countdownInterval = setInterval(() => {
             timeLeft--;
             countdownText.innerText = timeLeft;
